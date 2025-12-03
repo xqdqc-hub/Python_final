@@ -4,16 +4,30 @@ project:
 
 website:
   title: "Elephant Habitat Suitability"
-  page-navigation: true
-  navbar:
-    left:
-      - href: final1202.ipynb
-        text: Project Report
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - href: part1.ipynb
+        text: "Part 1: Introduction & Overview"
+      - href: part2.ipynb
+        text: "Part 2: Elephants & Study Area"
+      - href: part3.ipynb
+        text: "Part 3: Data Preparation: Environmental Covariates"
+      - href: part4.ipynb
+        text: "Part 4: Model Building"
+      - href: part5.ipynb
+        text: "Part 5: Result"
+      - href: part6.ipynb
+        text: "Part 6: Conclusion"
 
 format:
   html:
     theme: cosmo
     toc: true
-    toc-depth: 2
+    toc-location: right
     code-fold: true
+
+
+
 
