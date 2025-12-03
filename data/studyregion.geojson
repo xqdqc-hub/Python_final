@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "EFCOM_approx",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "name": "EFCOM_approx" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 101.0, 12.3 ], [ 101.0, 14.7 ], [ 102.6, 14.7 ], [ 102.6, 12.3 ], [ 101.0, 12.3 ] ] ] } }
+]
+}

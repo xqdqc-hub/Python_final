@@ -1,0 +1,19 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Elephant Habitat Suitability"
+  page-navigation: true
+  navbar:
+    left:
+      - href: final1202.ipynb
+        text: Project Report
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 2
+    code-fold: true
+
